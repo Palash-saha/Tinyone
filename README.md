@@ -4,4 +4,4 @@ TinyOne PSD TO HTML Project
 
     Live-Site Link
 
-https://tinyone-ps.netlify.app/
+https://tinyone-ps.netlify.app
