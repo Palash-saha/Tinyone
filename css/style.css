@@ -1,0 +1,280 @@
+@import url("https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+
+body {
+  font-family: "PT Sans", sans-serif;
+  overflow-x: hidden;
+}
+
+/* navbar section css */
+
+.navbar {
+  background-color: #fcdb00;
+}
+
+.nav-link {
+  color: #121001 !important;
+  font-size: 1.4rem;
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+/* showcase section css */
+
+#showcase {
+  background-color: #fcdb00;
+  padding-bottom: 60px;
+}
+#showcase h1 {
+  color: #121001;
+  font-size: 2rem;
+  font-weight: bold;
+  margin-top: 120px;
+}
+
+#showcase h3 {
+  color: #313841;
+  font-size: 1.3rem;
+  font-weight: 400;
+}
+#showcase p {
+  margin-top: 10px;
+  color: #313841;
+  font-size: 1rem;
+  font-weight: 400;
+}
+#showcase i {
+  color: #121001;
+  cursor: pointer;
+}
+/* features section css */
+#features {
+  padding: 120px 0;
+}
+#features h2 {
+  color: #121001;
+  font-size: 2rem;
+  font-weight: bold;
+}
+#features p {
+  color: #313841;
+  font-size: 1.3rem;
+  font-weight: 400;
+  line-height: 1.3;
+  margin-bottom: 93px;
+}
+#features .text h4 {
+  color: #010101;
+  font-size: 1.4rem;
+  font-weight: bold;
+}
+#features .text p {
+  color: #898989;
+  font-size: 1rem;
+}
+
+/* footer section css */
+#main-footer {
+  background: #010101;
+  padding: 95px 0;
+}
+#main-footer h2 {
+  color: #fcdb00;
+  font-size: 2rem;
+  font-weight: bold;
+}
+#main-footer p {
+  color: #898989;
+  font-size: 1.3rem;
+  font-weight: 400;
+  line-height: 1.3;
+}
+
+.form .form-control {
+  width: 50%;
+}
+.btn-yellow {
+  color: #010101;
+  background-color: #fcdb00;
+  font-weight: bold;
+}
+.social-icon {
+  margin: 78px 0 135px 0;
+}
+.social-icon ul li a {
+  color: #fcdb00;
+}
+
+.footer-text p {
+  color: #d4d4d4 !important;
+  font-size: 1rem !important;
+  padding: 2px;
+  margin: 0;
+}
+.footer-links ul li a {
+  display: inline-block;
+  text-decoration: none;
+  color: #d4d4d4;
+  font-size: 1rem;
+  padding: 2px;
+}
+
+/* RESPONSIVE CSS  */
+
+/* XS Device  */
+
+@media (min-width: 320px) and (max-width: 500px) {
+  .navbar-nav .nav-item {
+    border-top: 1px dashed #313841;
+  }
+  #showcase h1 {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 1.8rem;
+  }
+  #showcase h3 {
+    font-size: 1.2rem;
+    line-height: 1.5;
+    text-align: center;
+  }
+  #showcase .app-icon {
+    text-align: center;
+  }
+  #main-footer {
+    padding: 50px 0;
+  }
+  #main-footer h2 {
+    font-size: 1.8rem;
+  }
+  #main-footer p {
+    font-size: 1rem;
+    text-align: justify;
+  }
+  .social-icon {
+    margin: 25px 50px;
+  }
+  .footer-text p {
+    text-align: center !important;
+  }
+  .footer-links {
+    text-align: center;
+    margin-top: 10px;
+  }
+  .crights {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+/* Sm Device */
+
+@media (min-width: 500px) and (max-width: 575px) {
+  .navbar-nav .nav-item {
+    border-top: 1px dashed #313841;
+  }
+  #showcase h1 {
+    margin-top: 20px;
+    text-align: center;
+  }
+  #showcase h3 {
+    font-size: 1.2rem;
+    text-align: center;
+    line-height: 1.5;
+  }
+  #showcase .app-icon {
+    text-align: center;
+  }
+  #main-footer {
+    padding: 50px 0;
+  }
+  #main-footer h2 {
+    font-size: 1.8rem;
+  }
+  #main-footer p {
+    font-size: 1rem;
+    text-align: justify;
+  }
+  .social-icon {
+    margin: 25px 50px;
+  }
+  .footer-text p {
+    text-align: center !important;
+  }
+  .footer-links {
+    text-align: center;
+    margin-top: 10px;
+  }
+}
+
+/* Md Device  */
+
+@media (min-width: 576px) and (max-width: 767px) {
+  #showcase h1 {
+    margin-top: 20px;
+    text-align: center;
+  }
+  #showcase h3 {
+    text-align: center;
+    line-height: 1.5;
+  }
+  #showcase .app-icon {
+    text-align: center;
+  }
+
+  #main-footer {
+    padding: 50px 0;
+  }
+
+  #main-footer p {
+    font-size: 1rem;
+    text-align: justify;
+  }
+  .social-icon {
+    margin: 25px 50px;
+  }
+  .footer-text p {
+    text-align: center !important;
+  }
+
+  .footer-links {
+    text-align: center;
+    margin-top: 10px;
+  }
+  .crights {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+/* Lg Device  */
+
+@media (min-width: 768px) and (max-width: 991px) {
+  #showcase h1 {
+    margin-top: 20px;
+  }
+  .footer-text p {
+    text-align: center !important;
+  }
+  #main-footer p {
+    font-size: 1rem;
+    text-align: justify;
+  }
+  .social-icon {
+    margin: 25px 50px;
+  }
+
+  .footer-links {
+    margin-top: 10px;
+  }
+  .ms-center {
+    margin-left: 50px;
+  }
+  .footer-text p {
+    margin-top: 2px;
+  }
+  .crights {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
